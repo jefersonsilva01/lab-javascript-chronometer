@@ -13,7 +13,6 @@ class Chronometer {
 
     this.millisecondsId = setInterval(() => {
       this.milliseconds++;
-      if (callback) callback();
     }, 10)
   }
 
